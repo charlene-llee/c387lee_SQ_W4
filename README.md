@@ -1,4 +1,4 @@
-# Week 4 Example 2: Rock Paper Scissors Best of 3
+# Week 4 Example 2: Getting Over It: Hands Edition
 
 ## Setup and Interaction Instructions
 
