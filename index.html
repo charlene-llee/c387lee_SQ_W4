@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.min.js"></script>
 
+    <!-- Load game files in order — manager first, then drawing helpers, then scenes, then main -->
+    <!-- The order matters: sketch.js uses functions from game.js and scenes.js -->
+    <!-- so those must be loaded before sketch.js -->
     <script src="game.js"></script>
     <script src="scenes.js"></script>
 
